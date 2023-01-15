@@ -1,7 +1,7 @@
 {
-  "name": "my-electron-app",
+  "name": "hello-electron",
   "version": "1.0.1",
-  "description": "my-electron-app",
+  "description": "hello-electron",
   "main": "main.js",
   "scripts": {
     "test": "",
@@ -9,8 +9,16 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongyuwuwu/my-electron-app.git"
+  },
   "author": "kyrie",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongyuwuwu/my-electron-app/issues"
+  },
+  "homepage": "https://github.com/hongyuwuwu/my-electron-app#readme",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.4",
     "@electron-forge/maker-deb": "^6.0.4",
